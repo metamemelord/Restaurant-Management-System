@@ -8,6 +8,7 @@
 #include"dos.h"
 #include"class.h"
 #include"struct.h"
+
 void main()
 {clrscr();
 emp e;
@@ -22,30 +23,30 @@ do
 {m.user_bill=0;
 clrscr();
 hell:
-cout<<"\nอออออออออออออออออออออออออออออ WELCOME TO McDONALDS อออออออออออออออออออออออออออออ"<<endl;
+cout<<"\n############################# WELCOME TO McDONALDS #############################"<<endl;
 cout<<"1. CUSTOMER\n"<<endl;
 cout<<"2. STAFF\n"<<endl;
 cout<<"3. EXIT\n"<<endl;
-cout<<"\n\nออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออ\n"<<endl;
+cout<<"\n\n################################################################################\n"<<endl;
 cout<<"PLEASE ENTER YOUR CHOICE : ";
 ans1=getch();
 if(ans1=='1')
 { clrscr();
-cout<<"\nอออออออออออออออออออออออออออออ WELCOME TO McDONALDS อออออออออออออออออออออออออออออ"<<endl;
+cout<<"\n############################# WELCOME TO McDONALDS #############################"<<endl;
 cout<<"1. VIEW MENU AND PLACE ORDER\n"<<endl;
 cout<<"2. GO BACK TO LAST PAGE\n"<<endl;;
 cout<<"3. EXIT\n"<<endl;
-cout<<"\n\nออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออ\n"<<endl;
+cout<<"\n\n################################################################################\n"<<endl;
 cout<<"PLEASE ENTER YOUR CHOICE : ";
 ans4=getch();
 if(ans4=='1')
 {clrscr();
-cout<<"\nอออออออออออออออออออออออออออออ WELCOME TO McDONALDS อออออออออออออออออออออออออออออ"<<endl;
-cout<<"อออออออออออออออออออออออออออออออออออออ MENU อออออออออออออออออออออออออออออออออออออ\n"<<endl;
+cout<<"\n############################# WELCOME TO McDONALDS #############################"<<endl;
+cout<<"##################################### MENU #####################################\n"<<endl;
 m.menu();
 i=m.ansU;
 if(i>=49&&i<=55)
-{cout<<"\n\nออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออ\n"<<endl;
+{cout<<"\n\n################################################################################\n"<<endl;
 cout<<"\n\nWOULD YOU LIKE TO ORDER A DISH NOW (Y/N) : ";
 cin>>ans3;
 cout<<endl<<endl;
@@ -99,39 +100,39 @@ delay(200);
 cout<<endl<<endl<<" ";
 for(int h=0;h<39;h++)
  {
- cout<<"Û";
+ cout<<"๏ฟฝ";
  delay(40);
  }
 for(h=0;h<39;h++)
  {
- cout<<"Û";
+ cout<<"๏ฟฝ";
  delay(30);
  }
 if(strcmpi(e.username,"USER")==0&&strcmpi(e.password,"HEALTHEWORLD")==0)
 {
 clrscr();
-cout<<"\nอออออออออออออออออออออออออออออ WELCOME TO McDONALDS อออออออออออออออออออออออออออออ"<<endl;
+cout<<"\n############################# WELCOME TO McDONALDS #############################"<<endl;
 cout<<"\n1. ADD A NEW DISH\n";
 cout<<"\n2. MODIFY AN EXISTING DISH\n";
 cout<<"\n3. DELETE A DISH\n";
 cout<<"\n4. GO BACK TO MENU\n";
 cout<<"\n5. EXIT";
-cout<<"\n\nออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออ\n"<<endl;
+cout<<"\n\n################################################################################\n"<<endl;
 cout<<"\nENTER YOUR CHOICE : ";
 ans2=getch();
 if(ans2=='1')
 { clrscr();
-cout<<"\nอออออออออออออออออออออออออออออ WELCOME TO McDONALDS อออออออออออออออออออออออออออออ"<<endl;
+cout<<"\n############################# WELCOME TO McDONALDS #############################"<<endl;
 m.getdish();
 }
 else if(ans2=='2')
 { clrscr();
-cout<<"\nอออออออออออออออออออออออออออออ WELCOME TO McDONALDS อออออออออออออออออออออออออออออ"<<endl;
+cout<<"\n############################# WELCOME TO McDONALDS #############################"<<endl;
 m.modify();
 }
 else if(ans2=='3')
 { clrscr();
-cout<<"\nอออออออออออออออออออออออออออออ WELCOME TO McDONALDS อออออออออออออออออออออออออออออ"<<endl;
+cout<<"\n############################# WELCOME TO McDONALDS #############################"<<endl;
 m.deldish();
 }
 else if(ans2=='4')
